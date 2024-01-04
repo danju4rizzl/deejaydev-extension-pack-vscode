@@ -1,0 +1,56 @@
+{
+  "name": "deejaydev-extension-pack",
+  "displayName": "DeejayDev Extension Pack",
+  "description": "Everything you need to enjoy an AI-powered 🤖 development experience.",
+  "publisher": "DeejayDev",
+  "icon": "images/deejaydev_logo.png",
+  "version": "1.0.4",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs",
+    "Snippets",
+    "Linters",
+    "Debuggers",
+    "Visualization",
+    "Formatters",
+    "Other"
+  ],
+  "scripts": {
+    "build": "vsce package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danju4rizzl/vscode-ultimate-web-development-pack.git"
+  },
+  "galleryBanner": {
+    "color": "#0C0C0C",
+    "theme": "dark"
+  },
+  "extensionPack": [
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "amazonwebservices.aws-toolkit-vscode",
+    "aaron-bond.better-comments",
+    "alefragnani.Bookmarks",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "yoavbls.pretty-ts-errors",
+    "phind.phind",
+    "rangav.vscode-thunder-client"
+  ],
+  "keywords": [
+    "web development",
+    "ai code complete",
+    "ai commenting",
+    "spell checker",
+    "tag closing",
+    "tag rename",
+    "hex code highlighting",
+    "code bookmarking",
+    "comment highlighting",
+    "code suggestions",
+    "ai code snippets"
+  ]
+}
