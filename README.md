@@ -45,6 +45,9 @@ If you would like to contribute to this extension
 
 - You need to install The [Visual Studio Code Extension Manager](https://www.npmjs.com/package/@vscode/vsce) globally with: `npm install --global @vscode/vsce`
 
+- If you need an access token, follow this guide to get it: [Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops) after you get your token run: `vsce publish` to pubish to vscode marketplace
+
+
 - Once you are done adding your package you can run the following commands to build and test the extension in your local vscode:
 ```
 npm run build
@@ -55,5 +58,6 @@ pnpm run build
 ```
 
 - When you are happy with your changes, submit your `pull request`
+
 
 # Enjoy 👍🏽
